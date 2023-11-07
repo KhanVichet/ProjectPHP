@@ -13,7 +13,7 @@
         </div>
     </div> 
     <div class="footer-menu">
-        <div class="title">
+        <div class="title">1
             <h2>Other information</h2>
         </div>
         <div class="menu-list">

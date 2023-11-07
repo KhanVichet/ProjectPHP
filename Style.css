@@ -219,7 +219,6 @@ main div.container {
     width: 5px;
     height: 100%;
     background: var(--color-sunset-orange);
-
 }
 
 .container .left-main .sub-main .header .title h2 {
@@ -519,3 +518,10 @@ section.footer {
 .footer-menu .menu-list ul li a:hover::after{
     height: 100%;
 }
+
+
+/* add new  */
+main .container .left-main .table {
+    width: 80%;
+}
+

@@ -9,8 +9,8 @@
 </head>
 <body>
     <header>
-        <?php include 'Banner.php'; ?>
-        <?php include 'menu.php'; ?>
+        <?php include('includeFiles/Banner.php'); ?>
+        <?php include 'includeFiles/menu.php'; ?>
     </header>
     <!-- main -->
     <main>
@@ -19,11 +19,11 @@
                 <div class="sub-main">
                     <div class="header">
                         <div class="title">
-                            <h2>Place to Visite</h2>
+                            <h2>Place to Visit</h2>
                         </div>
                     </div>
                     <div class="box-image">
-                        <?php include 'main-place.php';?>
+                        <?php include 'includeFiles/main-place.php';?>
                     </div>
                 </div>
                 <div class="sub-main">
@@ -33,7 +33,7 @@
                         </div>
                     </div>
                     <div class="box-image">
-                        <?php include 'main-hotel.php';?>
+                        <?php include 'includeFiles/main-hotel.php';?>
                     </div>
                 </div>
                 <div class="sub-main">
@@ -43,7 +43,7 @@
                         </div>
                     </div>
                     <div class="box-image">
-                        <?php include 'main-bus-tickit.php';?>
+                        <?php include 'includeFiles/main-bus-tickit.php';?>
                     </div>
                 </div>
                 <div class="sub-main">
@@ -53,18 +53,18 @@
                         </div>
                     </div>
                     <div class="box-image">
-                        <?php include 'main-tours.php';?>
+                        <?php include 'includeFiles/main-tours.php';?>
                     </div>
                 </div>
             </div>
             <div class="right-main">
-                <?php include 'promotion.php'; ?>
+                <?php include 'includeFiles/promotion.php'; ?>
             </div>
         </div>
     </main>
     <!-- footer -->
     <footer>
-        <?php include 'footer.php'; ?>
+        <?php include 'includeFiles/footer.php'; ?>
     </footer>
     
 </body>
