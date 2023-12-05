@@ -3,7 +3,7 @@
         <h2>Copyright @ by 2023</h2>
     </div>
     <div class="contect">
-        <h2>Follow us on socail modai</h2>
+        <h2>Follow us on social media</h2>
         <div class="socail-medial">
             <ul>
                 <?php 
@@ -14,7 +14,7 @@
     </div> 
     <div class="footer-menu">
         <div class="title">1
-            <h2>Other information</h2>
+            <h2>OTHER INFORMATION</h2>
         </div>
         <div class="menu-list">
             <ul>
@@ -34,27 +34,41 @@
     
     function showIcon(){
         $icon = [
-            'fa-facebook',
-            'fa-instagram',
-            'fa-tiktok',
-            'fa-threads',
-            'fa-whatsapp',
+            [
+                'href'=> '#',
+                'icon'=> 'fa-facebook',
+            ],
+            [
+                'href'=> '#',
+                'icon'=> 'fa-instagram',
+            ],
+            [
+                'href'=> '#',
+                'icon'=> 'fa-tiktok',
+            ],
+            [
+                'href'=> '#',
+                'icon'=> 'fa-threads',
+            ],
+            [
+                'href'=> '#',
+                'icon'=> 'fa-whatsapp',
+            ],
         ];
         
-        $countIcon = count($icon);
-        for($i=0;$i <$countIcon; $i++){
-            echo '<li><a href="#"><i class="fa-brands '.$icon[$i].'"></i></a></li>';
+        foreach ($icon as $icon){
+            echo '<li><a href="'.$icon["href"].'"><i class="fa-brands '.$icon["icon"].'"></i></a></li>';
         }
     }
 
     function showMenuFooter(){
         $menuFooter = [
             [
-                'href' => 'Contect.htm',
-                'name' => 'CONTECT',
+                'href' => 'Contact.php',
+                'name' => 'CONTACT',
             ],
             [
-                'href' => 'About.htm',
+                'href' => 'About.php',
                 'name' => 'ABOUT',
             ],
         ];

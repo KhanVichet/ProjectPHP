@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+    <link rel="shortcut icon" href="Image/logo.png">
+    <title>Time To Travel</title>
 </head>
 <body>
     <header>
         <?php include('includeFiles/Banner.php'); ?>
         <?php include 'includeFiles/menu.php'; ?>
     </header>
+    <?php include('includeFiles/slide.php') ?>
     <!-- main -->
     <main>
         <div class="container">
@@ -23,7 +25,7 @@
                         </div>
                     </div>
                     <div class="box-image">
-                        <?php include 'includeFiles/main-place.php';?>
+                        <?php include 'includeFiles/hqur_placetovisit.php';?>
                     </div>
                 </div>
                 <div class="sub-main">
@@ -33,7 +35,7 @@
                         </div>
                     </div>
                     <div class="box-image">
-                        <?php include 'includeFiles/main-hotel.php';?>
+                        <?php include 'includeFiles/hqur_hotel.php';?>
                     </div>
                 </div>
                 <div class="sub-main">
@@ -43,7 +45,7 @@
                         </div>
                     </div>
                     <div class="box-image">
-                        <?php include 'includeFiles/main-bus-tickit.php';?>
+                        <?php include 'includeFiles/hqur_bus-tickit.php';?>
                     </div>
                 </div>
                 <div class="sub-main">
@@ -53,12 +55,12 @@
                         </div>
                     </div>
                     <div class="box-image">
-                        <?php include 'includeFiles/main-tours.php';?>
+                        <?php include 'includeFiles/hqur_tours.php'; ?>
                     </div>
                 </div>
             </div>
             <div class="right-main">
-                <?php include 'includeFiles/promotion.php'; ?>
+                <?php include 'includeFiles/the-best-place.php'; ?>
             </div>
         </div>
     </main>

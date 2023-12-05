@@ -2,7 +2,7 @@
     <div class="hero-container">
         <div class="logo">
             <div class="image">
-                <img src="Image/logo.png" alt="">
+                <a href="Home.php"><img src="Image/logo.png" alt=""></a>
             </div>
         </div>
         <div class="menu">          
@@ -15,7 +15,7 @@
                         ],
                         [
                             'href' => 'Place_to_Visit.php',
-                            'name' => 'PLACE TO VISITE',
+                            'name' => 'PLACE TO VISIT',
                         ],
                         [
                             'href' => 'Hotels.php',
